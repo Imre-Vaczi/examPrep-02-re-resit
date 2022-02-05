@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
-/*
 class RailwayStationTest {
 
     RailwayStation railwayStation;
@@ -45,7 +44,6 @@ class RailwayStationTest {
                 () -> railwayStation.addTrain(new CargoTrain(12)));
         assertEquals("Too much trains!", ex.getMessage());
     }
-
     @Test
     void testGetLongestTrain() {
         Train expected = railwayStation.getLongestTrain();
@@ -70,5 +68,5 @@ class RailwayStationTest {
         assertEquals(9, expected.get(0).getNumberOfWagons());
         assertEquals("Erkel Ferenc Intercity", expected.get(1).getName());
         assertEquals(10, expected.get(1).getNumberOfWagons());
-    }*/
-//}
+    }
+}

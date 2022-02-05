@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CargoTrainTest {
-/*
     @Test
     void testCreateWithOneTravellingPeople() {
         CargoTrain cargoTrain = new CargoTrain(5);
@@ -24,5 +23,5 @@ class CargoTrainTest {
         assertEquals(43, cargoTrain.getNumberOfWagons());
         assertEquals(645, cargoTrain.getTotalLength());
         assertEquals(4, cargoTrain.calculateTravellingPeople());
-    }*/
+    }
 }

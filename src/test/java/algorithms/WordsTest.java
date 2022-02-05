@@ -8,7 +8,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class WordsTest {
 
-/*
     @Test
     void addWordTest(){
         Words words = new Words();
@@ -33,6 +32,6 @@ class WordsTest {
 
         assertEquals(List.of("coconut","cherry"),result);
 
-    }*/
+    }
 
 }

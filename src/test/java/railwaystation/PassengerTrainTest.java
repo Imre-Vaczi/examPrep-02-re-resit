@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PassengerTrainTest {
 
-/*    @Test
+    @Test
     void testCreateWithoutName() {
         PassengerTrain passengerTrain = new PassengerTrain(5);
 
@@ -26,5 +26,5 @@ class PassengerTrainTest {
         assertEquals(75, passengerTrain.getTotalLength());
         assertTrue(passengerTrain.hasDiningCar());
         assertEquals(280, passengerTrain.calculateTravellingPeople());
-    }*/
+    }
 }
